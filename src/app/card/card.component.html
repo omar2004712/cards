@@ -1,0 +1,12 @@
+<div
+  class="flex flex-col hover:scale-110 bg-white w-72 shadow-md transition-all duration-300 rounded-lg h-full overflow-hidden"
+>
+  <img class="w-full aspect-[4/3] bg-gray-50 outline-none" [src]="imageUrl" />
+  <div class="py-5 px-3 flex flex-col gap-4">
+    <section>
+      <p class="text-lg font-bold">{{ title }}</p>
+      <p class="text-sm text-gray-400">@{{ username }}</p>
+    </section>
+    <p>{{ content }}</p>
+  </div>
+</div>
