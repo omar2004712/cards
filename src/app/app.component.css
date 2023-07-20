@@ -1,0 +1,3 @@
+:host {
+  @apply flex gap-3 p-5 m-auto max-w-fit items-stretch overflow-x-auto;
+}

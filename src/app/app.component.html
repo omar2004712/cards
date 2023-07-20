@@ -1,9 +1,7 @@
-<div class="flex gap-3 p-5 m-auto max-w-fit items-stretch overflow-x-auto">
-  <app-card
-    *ngFor="let post of posts"
-    [title]="post.title"
-    [content]="post.content"
-    [imageUrl]="post.imageUrl"
-    [username]="post.username"
-  ></app-card>
-</div>
+<app-card
+  *ngFor="let post of posts"
+  [title]="post.title"
+  [content]="post.content"
+  [imageUrl]="post.imageUrl"
+  [username]="post.username"
+></app-card>
